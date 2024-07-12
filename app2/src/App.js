@@ -1,6 +1,6 @@
 import React from "react";
 
-const App = () => {
+const App = ({title}) => {
   return (
     <div style={{
       margin: "10px",
@@ -8,7 +8,7 @@ const App = () => {
       textAlign:"center",
       backgroundColor:"cyan"
     }}>
-      <h1 >App 2</h1>
+      <h1>{title}</h1>
     </div>
   )
 }
